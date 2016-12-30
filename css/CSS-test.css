@@ -1,20 +1,42 @@
 body {
 	background-color: black;
 	color: white;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
 }
 h1
 {
-	background-color: gray;
-	font-family: Arial, Verdana, sans-serif;
+	background-color: gray;	
 	letter-spacing: 0.1em;
+	text-shadow: 2px 2px 7px #111111;
 }
 p
 {
-	font-family: Arial, Verdana, sans-serif;
 	letter-spacing: 0.1em;
+	text-shadow: -1px -1px #666666;
 }
+p.intro:first-letter
+{
+	font-size: 200%;
+}
+p.intro:first-line
+{
+	font-weight: bold;
+}
+
 #copyright
 {
 	font-style: italic;
 	font-size: 12px;
+}
+
+.container
+{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+table
+{
+	background-color: gray;
 }
