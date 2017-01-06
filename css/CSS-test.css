@@ -3,40 +3,58 @@ body {
 	color: white;
 	font-family: Arial, Verdana, sans-serif;
 	text-align: center;
+	overflow: scroll;
 }
-h1
-{
+h1{
 	background-color: gray;	
 	letter-spacing: 0.1em;
 	text-shadow: 2px 2px 7px #111111;
 }
-p
-{
+p{
 	letter-spacing: 0.1em;
 	text-shadow: -1px -1px #666666;
 }
-p.intro:first-letter
-{
+p.intro{
+	min-width: px;
+	padding-bottom :20px;
+	border-bottom:3px double red;
+}
+p.intro:first-letter{
 	font-size: 200%;
 }
-p.intro:first-line
-{
+p.intro:first-line{
 	font-weight: bold;
 }
 
-#copyright
-{
+ul{
+}
+li{
+	display: inline;
+	margin:25px;
+}
+#copyright{
 	font-style: italic;
 	font-size: 12px;
 }
 
-.container
-{
+div.container{
 	display: inline-block;
 	margin: 0 30px;
 }
+div.kindcontainer{
+	border: 1px solid white;
+	padding: 0.5em;
+}
 
-table
-{
+a{text-decoration: none;}
+a:link{color: deeppink;}
+a:hover{text-decoration: underline;}
+a:visited{color: pink;}
+table{
+	width: 350px;
+	padding: 10px;
+	border:2px solid #0088dd;
+	
+	margin: 10px auto 10px auto;
 	background-color: gray;
 }
