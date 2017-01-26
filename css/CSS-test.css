@@ -1,5 +1,8 @@
 body {
-	background-color: black;
+	background: -webkit-radial-gradient(ellipse,#4682b4,#000000);
+	background: -o-radial-gradient(ellipse,#4682b4,#000000);
+	background: -moz-radial-gradient(ellipse,#4682b4,#000000);
+	background: radial-gradient(ellipse,#4682b4,#000000);
 	color: white;
 	font-family: Arial, Verdana, sans-serif;
 	text-align: center;
@@ -47,9 +50,10 @@ div.kindcontainer{
 }
 
 a{text-decoration: none;}
-a:link{color: deeppink;}
+a:link{color: #00bfff;}
 a:hover{text-decoration: underline;}
-a:visited{color: pink;}
+a:visited{color: #afeeee;}
+a.contactme{color: #00ffff;}
 table{
 	width: 350px;
 	padding: 10px;
@@ -58,3 +62,4 @@ table{
 	margin: 10px auto 10px auto;
 	background-color: gray;
 }
+
